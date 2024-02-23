@@ -1,0 +1,22 @@
+{
+  "port": "9099",
+  "service_name": "JPP",
+  "db_user": "dev",
+  "db_pass": "password",
+  "db_host": "jpp-dev.cdad7orcu8z2.ap-south-1.rds.amazonaws.com",
+  "db_port": "5432",
+  "db_name": "jpp-dev",
+  "max_open_connections": 25,
+  "max_idle_connections": 25,
+  "max_life_time_in_minute": 2,
+  "database": "postgres",
+  "serverTimeOut": 120,
+  "serverReadTimeOut": 30,
+  "serverWriteTimeOut": 180,
+  "serverMaxIdleTimeOut": 240,
+  "es_index_prefix": "",
+  "app": {
+    "mode": "dev",
+    "port": "9099"
+  }
+}
